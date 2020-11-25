@@ -8,7 +8,7 @@ For full instructions, visit the [Wiki page](https://github.com/Agro-iot/iot2tan
 ## Overview and Background
 The MLX90614 sensor is an infrared thermometer for non-contact temperature measurements. This sensor is connected to an ESP-32 board which sends the data to the [IOTA Tangle](https://blog.iota.org/the-tangle-an-illustrated-introduction-4d5eae6fe8d4!) using Wi-Fi connectivity. The developed system can be use to detect a common symptom like fever caused by many diseases (flu, pneumonia, COVID-19...) and prevent health complications. This project achieves two major challenges: connectivity and security, the first one allows users and doctors have the data remotely and in the right time. The second one gives confidence to adopt this type of technology without worrying about typical centralized system vulnerabilities. 
 
-## Repositories
+## Standards
 This project is based on [IOTA Streams Framework](https://www.iota.org/solutions/streams) and [ESP-IDF Standard](https://docs.espressif.com/projects/esp-idf/en/stable/get-started/).
 
 ### Potential
