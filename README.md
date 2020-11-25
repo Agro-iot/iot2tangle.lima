@@ -16,3 +16,6 @@ The same principle applies to wearable technologies (i.e. smartwatches or wristb
 
 ## Future Steps
 Make a PCB board and a 3D-printed enclosure prototype for portable funcionality. Also integrate other types of connectivity like LPWAN to expand the use case scenarios.
+
+## Video Presentation
+[![video_ppt](https://user-images.githubusercontent.com/42292104/100272260-cbd71580-2f28-11eb-8634-a995412d1148.png)](https://www.youtube.com/watch?v=VQvI5fAxg1s)
