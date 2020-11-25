@@ -208,25 +208,7 @@ void generateJson(struct device *z)
     int i, aux;
 
     strcpy(z->json, "{\"iot2tangle\":[");
-    
-    aux = 0;
-    strcat(z->json, "{\"sensor\":\"Internal\",\"data\":[");
-    for (i=0;i<1;i++)
-    {
-	if (z->isEnable[i+0])
-	{
-	    if (aux != i) strcat(z->json, ",");
-	    strcat(z->json, "{\"");
-	    strcat(z->json, z->s_name[i+0]);
-	    strcat(z->json, "\":\"");
-	    strcat(z->json, z->d[i+0]);
-	    strcat(z->json, "\"}");
-	}
-	else
-	    aux++;
-    }
-    strcat(z->json, "]}");
-	
+    	
     if (check_bme280())
     {
 	aux = 0;
@@ -357,7 +339,7 @@ void generateJson(struct device *z)
 	if (check_mlx90614())
     {
         aux = 0;
-        strcat(z->json, ",{\"sensor\":\"BodyTemperature\",\"data\":[");
+        strcat(z->json, "{\"sensor\":\"BodyTemperature\",\"data\":[");
         for (i = 0; i < 1; i++)
         {
             if (z->isEnable[i + 13])
