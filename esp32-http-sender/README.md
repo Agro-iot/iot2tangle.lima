@@ -33,8 +33,8 @@ After doing this last step do not close the shell, as we will compile and flash 
 ## 2) Clone the iot2tangle.lima repository and go to the 'esp32-http-sender' folder:
 You can download the repository directly from Github, or from shell or Command Prompt with the following command:
 ```
-git clone https://github.com/Agro-iot/iot2tangle.ayni.git
-cd iot2tangle.ayni/esp32-http-sender
+git clone https://github.com/Agro-iot/iot2tangle.lima
+cd iot2tangle.lima/esp32-http-sender
 ```
 ## 3) Edit the file config.h
 The *config.h* file must be opened and modified, this file is in the directory *'ESP32/http-sender/main'* of the repository.
@@ -75,6 +75,10 @@ idf.py -p COM1 flash monitor  # COM1 is an Windows port example, you must put yo
 ```
 
 Upon completion, the firmware is downloaded to your ESP32. If the *I2T Streams HTTP Gateway* and *Keepy* were configured correctly, ***now you should be sending data to Tangle via Streams***.
+
+**DEMO**
+
+![running_debugging_esp32_animation](https://user-images.githubusercontent.com/42292104/100288480-c38cd380-2f44-11eb-9e04-360201bb182b.gif)
 
 # Debugging
 If configured correctly, *ESP32* should be sending data to the gateway automatically. However, you may want to verify that it is running on *ESP32*.
