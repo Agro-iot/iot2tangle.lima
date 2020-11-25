@@ -11,8 +11,8 @@ The MLX90614 sensor is an infrared thermometer for non-contact temperature measu
 ## Standards
 This project is based on [IOTA Streams Framework](https://www.iota.org/solutions/streams) and [ESP-IDF Standard](https://docs.espressif.com/projects/esp-idf/en/stable/get-started/).
 
-### Potential
+## Potential
 The same principle applies to wearable technologies (i.e. smartwatches or wristbands) adding other sensors such as GPS or oximeters to have the full picture of the end user's physical activity. Thanks to IOTA Streams Framework, the user is always in control of its own data and decides who and when can access it.
 
-### Future Steps
+## Future Steps
 Make a PCB board and a 3D-printed enclosure prototype for portable funcionality. Also integrate other types of connectivity like LPWAN to expand the use case scenarios.
